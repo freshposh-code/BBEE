@@ -6,28 +6,75 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="output.css">
     <script src="https://cdn.tailwindcss.com"></script>
+    <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
     <title>BBEE</title>
 </head>
 
 <body>
-    <section class="flex items-center justify-between p-2 px-10">
+
+    <!-- NAVBAR -->
+    <div class="flex items-center justify-between p-2 sm:hidden">
+        <div>
+            <h1 class="text-6xl font-extrabold">
+                B.
+            </h1>
+        </div>
+        <div class="text-white text-2xl">
+            <button class="menu-btn" navbar-menu-toggler>
+                <ion-icon name="menu" class="menu-icon"></ion-icon>
+            </button>
+        </div>
+    </div>
+
+    <section class="items-center justify-between p-2 px-12 sm:flex hidden">
         <div>
             <h1 class="text-6xl font-extrabold">
                 B.
             </h1>
         </div>
         <div>
-            <ul class="flex text-lg gap-3 text-white">
-                <li>Services</li>
-                <li>pricing</li>
-                <li>about us</li>
+            <ul class="flex text-xl font-semibold gap-8 text-white">
+                <a href="/" class="hover:text-violet-800 duration-200">Services</a>
+                <a href="/" class="hover:text-violet-800 duration-200">pricing</a>
+                <a href="/" class="hover:text-violet-800 duration-200">about us</a>
             </ul>
         </div>
         <div>
             <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=pexels-simon-robben-614810.jpg&fm=jpg"
-                alt="" class="w-[50px] rounded-full h-[50px] object-contain border-2 border-violet-600">
+                alt="" class="w-[50px] rounded-full h-[50px] object-contain border-4 border-violet-600">
         </div>
     </section>
+
+    <!-- NAV MOBILE RESPONSIVENESS -->
+
+    <section class="flex flex-col justify-between p-2 px-6 sm:hidden navbar bg-black float-right m-3 nav-gradient"
+        navbar>
+        <div class="flex flex-col items-center">
+            <ul class="flex flex-col text-lg font-semibold gap-3 text-white">
+                <li>Services</li>
+                <li>pricing</li>
+                <li>about us</li>
+            </ul>
+            <div class="py-3">
+                <img src="https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?cs=srgb&dl=pexels-simon-robben-614810.jpg&fm=jpg"
+                    alt="" class="w-[50px] rounded-full h-[50px] object-contain border-4 border-violet-600">
+            </div>
+        </div>
+
+        <!-- <div class="text-white absolute top-2 right-2 text-xl">
+            <button class="menu-btn" navbar-menu-toggler>
+                <ion-icon name="close" class="close-icon"></ion-icon>
+            </button>
+        </div> -->
+
+    </section>
+
+    <!-- HERO SECTION -->
+
+    <section></section>
+
 </body>
+
+<script src="client.js"></script>
 
 </html>

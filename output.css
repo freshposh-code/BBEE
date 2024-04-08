@@ -1,6 +1,16 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rhodium+Libre&display=swap'); */
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: "Rhodium Libre", serif; */
+}
 
 body {
     background: #00040f;
@@ -8,4 +18,17 @@ body {
 
 h1 {
     color: aliceblue;
+}
+
+.navbar {
+    visibility: hidden;
+}
+
+.navbar.active {
+    visibility: visible;
+}
+
+.nav-gradient {
+    background: linear-gradient(123deg, #3b006c 0%, #4c11a4, #230b48 80%);
+    border-start-start-radius: 35px;
 }

@@ -32,3 +32,85 @@ h1 {
     background: linear-gradient(123deg, #3b006c 0%, #4c11a4, #230b48 80%);
     border-start-start-radius: 35px;
 }
+
+.cursive {
+    font-family: cursive;
+}
+
+
+.text-gradient {
+    background: radial-gradient(64.18% 64.18% at 71.16% 35.69%,
+            #ffc35d 0.89%,
+            #ff6315 17.23%,
+            #ffb753 42.04%,
+            #ffa97e 55.12%,
+            #ff6817 71.54%,
+            #ff8c35 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.bg-blue-gradient {
+    background: linear-gradient(157.81deg,
+            #def9fa -43.27%,
+            #bef3f5 -21.24%,
+            #9dedf0 12.19%,
+            #7de7eb 29.82%,
+            #5ce1e6 51.94%,
+            #33bbcf 90.29%);
+}
+
+.bg-black-gradient {
+    background: linear-gradient(144.39deg,
+            #ffffff -278.56%,
+            #6d6d6d -78.47%,
+            #11101d 91.61%);
+}
+
+.bg-black-gradient-2 {
+    background: linear-gradient(-168.39deg,
+            #ffffff -278.56%,
+            #6d6d6d -78.47%,
+            #11101d 91.61%);
+}
+
+.bg-gray-gradient {
+    background: linear-gradient(153.47deg,
+            rgba(255, 255, 255, 0) -341.94%,
+            #14101d 95.11%);
+}
+
+.navmenu {
+    -webkit-animation: slide-top 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+    animation: slide-top 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+}
+
+@-webkit-keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(100px);
+        transform: translateY(100px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+@keyframes slide-top {
+    0% {
+        -webkit-transform: translateY(100px);
+        transform: translateY(100px);
+    }
+
+    100% {
+        -webkit-transform: translateY(0);
+        transform: translateY(0);
+    }
+}
+
+.hero-gradient {
+    background: linear-gradient(110deg, #8b3dff #230b47 0%, #37008a, #2a0044 100%);
+}

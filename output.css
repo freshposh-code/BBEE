@@ -1,4 +1,5 @@
 /* @import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rhodium+Libre&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Rhodium+Libre&display=swap');
 
 @tailwind base;
 @tailwind components;
@@ -10,6 +11,7 @@
     padding: 0;
     box-sizing: border-box;
     /* font-family: "Rhodium Libre", serif; */
+    /* font-family: "Poppins", sans-serif; */
 }
 
 body {
@@ -112,5 +114,7 @@ h1 {
 }
 
 .hero-gradient {
-    background: linear-gradient(110deg, #8b3dff #230b47 0%, #37008a, #2a0044 100%);
+    background: linear-gradient(123deg, #df52ff 0%, #ff87d5 150%);
+    box-shadow: 0 0 70px #df52ff;
+    border-radius: 30px;
 }

@@ -35,6 +35,10 @@ h1 {
     border-start-start-radius: 35px;
 }
 
+.nav-gradient-2 {
+    background: linear-gradient(45deg, #250043 -10%, #180c2c84, #37004d96 100%);
+}
+
 .cursive {
     font-family: cursive;
 }
@@ -76,35 +80,6 @@ h1 {
     background: linear-gradient(153.47deg,
             rgba(255, 255, 255, 0) -341.94%,
             #14101d 95.11%);
-}
-
-.navmenu {
-    -webkit-animation: slide-top 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-    animation: slide-top 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
-}
-
-@-webkit-keyframes slide-top {
-    0% {
-        -webkit-transform: translateY(100px);
-        transform: translateY(100px);
-    }
-
-    100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
-}
-
-@keyframes slide-top {
-    0% {
-        -webkit-transform: translateY(100px);
-        transform: translateY(100px);
-    }
-
-    100% {
-        -webkit-transform: translateY(0);
-        transform: translateY(0);
-    }
 }
 
 .hero-gradient {

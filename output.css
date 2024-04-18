@@ -65,17 +65,11 @@ h1 {
 }
 
 .bg-black-gradient {
-    background: linear-gradient(144.39deg,
-            #ffffff -278.56%,
-            #6d6d6d -78.47%,
-            #11101d 91.61%);
+    background: linear-gradient(-150deg, #5600b957 0%, #000000 70%);
 }
 
 .bg-black-gradient-2 {
-    background: linear-gradient(-168.39deg,
-            #ffffff -278.56%,
-            #6d6d6d -78.47%,
-            #11101d 91.61%);
+    background: linear-gradient(180deg, transparent 0%, #0000009d 50%);
 }
 
 .bg-gray-gradient {
@@ -115,6 +109,6 @@ h1 {
 
 .hero-gradient {
     background: linear-gradient(123deg, #df52ff 0%, #ff87d5 150%);
-    box-shadow: 0 0 70px #df52ff;
+    box-shadow: 0 0 40px #df52ff;
     border-radius: 30px;
 }

@@ -10,7 +10,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: "Rhodium Libre", serif; */
+    font-family: "Rhodium Libre", serif;
     /* font-family: "Poppins", sans-serif; */
 }
 
@@ -86,4 +86,34 @@ h1 {
     background: linear-gradient(123deg, #df52ff 0%, #ff87d5 150%);
     box-shadow: 0 0 40px #df52ff;
     border-radius: 30px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: minmax(280px, Auto);
+    gap: 20px;
+}
+
+.box {
+    background-color: #af5252;
+}
+
+.box-II {}
+
+.box-III {}
+
+.box-IV {}
+
+.box-V {}
+
+.full-height {
+    grid-row: span 2;
+}
+
+/* Responsive adjustments */
+@media (max-width: 608px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
 }
